@@ -10,6 +10,7 @@ nav {
     align-items: center;
     height: 55px;
     background-color: #F55A5A;
+    margin-bottom: 20px;
 }
 
 .nav--logo {
@@ -22,4 +23,67 @@ nav {
     color: white;
     letter-spacing: -0.02em;
     font-weight: 500;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    margin-inline: 30px;
+    padding-block: 20px;
+    gap: 20px;
+    font-size: 10px;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+.card--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+}
+
+.card--image {
+    border-radius: 5px;
+}
+
+.card--location {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.card--locationIcon {
+    height: 10px;
+    margin-right: 2px;
+}
+
+.card--placeName {
+    margin-right: 10px;
+    letter-spacing: +0.15em;
+}
+
+.card--mapLink {
+    color: #918E9B;
+}
+
+.card--title {
+    margin: 0;
+    margin-top: -5px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.card--duration {
+    margin: 0;
+}
+
+@media only screen and (max-width: 450px) {
+    .card--info {
+        font-size: 8px;
+    }
+
+    .card--title {
+        font-size: 18px;
+    }
 }

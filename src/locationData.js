@@ -6,7 +6,7 @@ const locationData = [
     {
         id: 1,
         title: "Blue Lagoon",
-        location: "Malta",
+        location: "MALTA",
         mapLink: "https://goo.gl/maps/JXFUGCjzBJemunk7A",
         startDate: "1 Aug, 2018",
         endDate: "15 Aug, 2018",
@@ -16,7 +16,7 @@ const locationData = [
     {
         id: 2,
         title: "White Cliffs of Dover",
-        location: "England",
+        location: "ENGLAND",
         mapLink: "https://goo.gl/maps/vETnKG4EV7tvXEeJ7",
         startDate: "22 May, 2017",
         endDate: "22 May, 2017",
@@ -26,7 +26,7 @@ const locationData = [
     {
         id: 3,
         title: "Brighton",
-        location: "England",
+        location: "ENGLAND",
         mapLink: "https://goo.gl/maps/vP4vRSKPrfNMqYMr6",
         startDate: "22 May, 2017",
         endDate: "27 May, 2017",
